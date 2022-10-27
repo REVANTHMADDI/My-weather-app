@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="weather1.css">
+</head>
+<body>
+<div class="container">
+    <div class="sub">
+<div class="title"><h1>WEATHER APP</h1></div>
+<div class="input">
+<input type="text" id="location-input">
+<input type="button" value="SUBMIT" id="btn">
+</div>
+<div class="information">
+    <ion-icon id="icon" name="rainy-outline" style="height:50px; width:50px;"></ion-icon>
+</div>
+<div class="temp">
+<span id="tempval">25</span>
+<span id="degrees">&#176</span>
+<span id="col">C</span>
+<div id="weatherdesc"></div>
+<div id="location"></div>
+</div>
+    </div>
+</div>
+</body>
+<script src="weather1.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
